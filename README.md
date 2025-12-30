@@ -2,7 +2,9 @@
 Save editor for the Madoka Magica TPS games
 
 ## The Games
-The Madoka Magica TPS games were developed from 2011-2013 for Android and iOS. There are three entries and several ports to iOS, and Au Smart Pass, both of which are currently lost media.
+The Madoka Magica TPS games were a series of third person shooters developed from 2011-2013 for Android and iOS. There are three entries and several ports to iOS, and Au Smart Pass, both of which are currently lost media.
+
+It is speculated by the repo maintainer that this file format is also used in the lost game "M.N.I.B.R." ("Manicured Nails in Bloody Red"), a first person shooter created by the same developer of the TPS games.
 
 ## Format
 All integers are stored as big-endian bytes in a binary file that's been harcoded to be named "save.sav". This file is located in /data/data/ on Android; no information currently on how the iOS port stores the file.
